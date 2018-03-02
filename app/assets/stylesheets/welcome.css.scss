@@ -1,3 +1,33 @@
 // Place all the styles related to the Welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav-item {
+  padding: 0 6px 0 6px;
+}
+
+.nav-item a:hover {
+  background-color: #474646 !important;
+  border-radius: 5px;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.fixed-top {
+  border-radius: 0px;
+  left: 0;
+  right: 0;
+}
+
+.stayright {
+  poistion: relative;
+  right: -180px;
+}
